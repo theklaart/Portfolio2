@@ -172,24 +172,24 @@ const portfolioData = {
     },
     {
       title: "SKILLA",
-      description: "Création et programmation d'une grille de contenus harmonieuse pour développer l'engagement de la communauté locale sur Instagram.",
+      description: "Conception UX/UI d'une plateforme internationale de recrutement. Création de l'identité visuelle, d'une interface web et mobile, d'un design system complet ainsi que d'une campagne d'emailing pour offrir une expérience utilisateur moderne, accessible et cohérente.",
       images: ["portfolio_projets/comm/skilla/marketing.png", "portfolio_projets/comm/skilla/marketing2.png"],
-      software: ["Photoshop", "canva"],
+      software: ["Photoshop", "canva","Figma"],
       keywords: ["Social Media", "Branding", "Content Strategy"]
     },
     {
         title: "Association La Cravate Solidaire Rennes",
-        description: "Création et programmation d'une grille de contenus harmonieuse pour développer l'engagement de la communauté locale sur Instagram.",
+        description: "Refonte de l'identité visuelle et conception UX/UI d'une plateforme pour La Cravate Solidaire Rennes. Ce projet combine recherche utilisateur, direction artistique, création d'une charte graphique et prototypage d'une interface moderne visant à valoriser l'impact de l'association et améliorer son engagement digital.",
         images: ["portfolio_projets/comm/filrouge/sitefg1.png"],
-        software: ["Photoshop", "canva"],
+        software: ["Photoshop", "canva", "Figma"],
         keywords: ["Social Media", "Branding", "Content Strategy"]
     }
     ],
   uxui: [
     {
-      title: "Dashboard Analytics",
+      title: "Handisport club rennes",
       description: "Recherche utilisateur et prototypage d'une interface d'analyse de données marketing. Architecture de l'information pensée pour fluidifier le workflow.",
-      images: ["dashboard1.jpg"],
+      images: ["portfolio_projets/ux/handi.png"],
       software: ["Figma"],
       keywords: ["UX Design", "Wireframe", "Dashboard"]
     }
@@ -197,30 +197,30 @@ const portfolioData = {
   branding: [
     {
       title: "ART exposition",
-      description: "Définition de l'univers structurel, du choix de palette chromatique et de la typographie pour une identité visuelle moderne et impactante.",
+      description: "Création d'une identité visuelle complète pour Honar, une plateforme dédiée à l'univers artistique. Le projet comprend la conception du logo, de la charte graphique et de ses déclinaisons sur différents supports print et digitaux afin de construire une image de marque moderne, minimaliste et cohérente.",
       images: ["portfolio_projets/identité-visuel/artlogo/art.png", "portfolio_projets/identité-visuel/artlogo/art1.png","portfolio_projets/identité-visuel/artlogo/art2.png","portfolio_projets/identité-visuel/artlogo/art3.png", "portfolio_projets/identité-visuel/artlogo/art4.png", "portfolio_projets/identité-visuel/artlogo/art5.png", "portfolio_projets/identité-visuel/artlogo/art6.png"],
-      software: ["Illustrator", "Photoshop"],
-      keywords: ["Logo", "Identity Design", "Branding"]
+      software: ["Illustrator", "Photoshop", "Figma"],
+      keywords: ["Logo", "Identity Design", "Branding", "UX Design"]
     },
     {
       title: "Assurance IRAN",
-      description: "Définition de l'univers structurel, du choix de palette chromatique et de la typographie pour une identité visuelle moderne et impactante.",
+      description: "Conception d'une identité visuelle complète pour une compagnie d'assurance, pensée pour transmettre des valeurs de confiance, de protection et de proximité. Le projet inclut la création du logo, de la direction artistique et de ses déclinaisons sur différents supports de communication, ainsi que des maquettes web et mobile illustrant l'application de cette identité dans un écosystème digital cohérent.",
       images: ["portfolio_projets/identité-visuel/assurancelogo/assurance.png", "portfolio_projets/identité-visuel/assurancelogo/assurance1.png", "portfolio_projets/identité-visuel/assuranceogo/assurance2.png", "portfolio_projets/identité-visuel/assurancelogo/assurance3.png", "portfolio_projets/identité-visuel/assurancelogo/assurance4.png"],
-      software: ["Illustrator", "Photoshop"],
-      keywords: ["Logo", "Identity Design", "Branding"]
+      software: ["Illustrator", "Photoshop", "Figma"],
+      keywords: ["Logo", "Identity Design", "Branding","UX Design"]
     },
     {
       title: "ORYN Chaussures",
-      description: "Définition de l'univers structurel, du choix de palette chromatique et de la typographie pour une identité visuelle moderne et impactante.",
+      description: "ORYN est une marque de sneakers créée de A à Z, de la stratégie de marque à son identité visuelle. Ce projet comprend la création du naming, du logo, de la direction artistique, de la palette de couleurs, de la typographie ainsi que de l'ensemble des supports de communication (packaging, étiquettes et shopping bag). L'objectif était de concevoir une identité premium, contemporaine et facilement reconnaissable, capable d'incarner les valeurs d'innovation, de performance et de style urbain.",
       images: ["portfolio_projets/identité-visuel/oryn/shoes.png", "portfolio_projets/identité-visuel/oryn/shoes1.png", "portfolio_projets/identité-visuel/oryn/shoes2.png", "portfolio_projets/identité-visuel/oryn/shoes2v.mpeg-4.mp4"],
-      software: ["Illustrator", "Photoshop"],
-      keywords: ["Logo", "Identity Design", "Branding"]
+      software: ["Illustrator", "Photoshop", "Figma"],
+      keywords: ["Logo", "Identity Design", "Branding", "UX Design"]
     }
   ],
   photo: [
     {
       title: "Portrait street photo",
-      description: "Série de clichés studio explorant la colorimétrie froide et les lumières en clair-obscur. Retouche avancée des textures et des contrastes.",
+      description: "Cette série de portraits explore la spontanéité des rencontres et la beauté des instants ordinaires. Réalisées en lumière naturelle, ces photographies capturent des expressions sincères et des émotions authentiques, transformant des scènes du quotidien en récits visuels empreints de simplicité et d'humanité.",
       images: ["portfolio_projets/photographie/photo2.jpeg", "portfolio_projets/photographie/photo3.jpeg"],
       software: ["Photoshop", "Lightroom"],
       keywords: ["Studio", "Portrait", "Retouche Pro"]
