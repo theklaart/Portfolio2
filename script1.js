@@ -189,7 +189,7 @@ const portfolioData = {
     {
       title: "Handisport club rennes",
       description: "Recherche utilisateur et prototypage d'une interface d'analyse de données marketing. Architecture de l'information pensée pour fluidifier le workflow.",
-      images: ["portfolio_projets/ux/handi.png"],
+      images: ["Users/sajedefk/Documents/Portfolio2/portfolio_projets/ux/handi.png"],
       software: ["Figma"],
       keywords: ["UX Design", "Wireframe", "Dashboard"]
     }
