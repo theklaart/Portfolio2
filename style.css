@@ -1169,3 +1169,39 @@ body {
   object-fit: contain; /* Important : garde les proportions de ton image */
   background: #000;
 }
+
+
+/* Style du bouton */
+.hover-btn {
+  position: absolute; /* Pour ne pas décaler les autres éléments */
+  bottom: 20px;       /* Placé en bas de la carte */
+  opacity: 0;         /* Caché par défaut */
+  transform: translateY(10px); /* Petit effet de mouvement */
+  transition: all 0.3s ease;
+  
+  /* Style minimaliste bleu */
+  background: rgba(179, 229, 252, 0.15);
+  border: 1px solid rgba(179, 229, 252, 0.4);
+  color: #b3e5fc;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  pointer-events: none;
+}
+
+/* On s'assure que la boîte est en relative pour que le bouton soit bien positionné dedans */
+.category-box {
+  position: relative;
+  overflow: hidden;
+  /* ... vos autres styles existants ... */
+}
+
+/* Apparition au survol */
+.category-box:hover .hover-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+

@@ -164,7 +164,7 @@ function initCustomCursor() {
 const portfolioData = {
   marketing: [
     {
-      title: "Flyer restaurant Mezzo di Pasta",
+      title: "Restaurant Mezzo di Pasta",
       description: "Conception complète d'un dispositif promotionnel imprimé visant à capturer la cible étudiante. Intégration de la charte graphique et gestion de la mise en page sous contraintes fortes de lisibilité.",
       images: ["portfolio_projets/comm/flyer_mezzo/flyer_mezzo_1.png", "portfolio_projets/comm/flyer_mezzo/carte.png"], 
       software: ["Photoshop", "InDesign", "canva"],
@@ -188,8 +188,8 @@ const portfolioData = {
   uxui: [
     {
       title: "Handisport club rennes",
-      description: "Recherche utilisateur et prototypage d'une interface d'analyse de données marketing. Architecture de l'information pensée pour fluidifier le workflow.",
-      images: ["Users/sajedefk/Documents/Portfolio2/portfolio_projets/ux/handi.png"],
+      description: "Conception de la maquette UX/UI du site web du Handisport Club Rennes, avec pour objectif d'améliorer la visibilité du club et de rendre ses services accessibles à tous. Le projet comprend la recherche utilisateur, l'architecture de l'information, la création des wireframes et le design d'une interface responsive, alliant accessibilité, clarté et identité visuelle moderne.",
+      images: ["portfolio_projets/ux/handi.png"],
       software: ["Figma"],
       keywords: ["UX Design", "Wireframe", "Dashboard"]
     }
@@ -205,7 +205,7 @@ const portfolioData = {
     {
       title: "Assurance IRAN",
       description: "Conception d'une identité visuelle complète pour une compagnie d'assurance, pensée pour transmettre des valeurs de confiance, de protection et de proximité. Le projet inclut la création du logo, de la direction artistique et de ses déclinaisons sur différents supports de communication, ainsi que des maquettes web et mobile illustrant l'application de cette identité dans un écosystème digital cohérent.",
-      images: ["portfolio_projets/identité-visuel/assurancelogo/assurance.png", "portfolio_projets/identité-visuel/assurancelogo/assurance1.png", "portfolio_projets/identité-visuel/assuranceogo/assurance2.png", "portfolio_projets/identité-visuel/assurancelogo/assurance3.png", "portfolio_projets/identité-visuel/assurancelogo/assurance4.png"],
+      images: ["portfolio_projets/identité-visuel/assurancelogo/assurance.png", "portfolio_projets/identité-visuel/assurancelogo/assurance1.png", "portfolio_projets/identité-visuel/assurancelogo/assurance2.png", "portfolio_projets/identité-visuel/assurancelogo/assurance3.png", "portfolio_projets/identité-visuel/assurancelogo/assurance4.png"],
       software: ["Illustrator", "Photoshop", "Figma"],
       keywords: ["Logo", "Identity Design", "Branding","UX Design"]
     },
@@ -334,3 +334,26 @@ function initPortfolioEngine() {
     categoriesView.classList.remove("hidden");
   });
 }
+
+
+
+function injectHoverButtons() {
+  const categoryBoxes = document.querySelectorAll('.category-box');
+  
+  categoryBoxes.forEach(box => {
+    // On crée l'élément bouton
+    const btn = document.createElement('div');
+    btn.className = 'hover-btn';
+    btn.textContent = 'Appuyez pour voir les projets';
+    
+    // On l'ajoute à l'intérieur de la boîte
+    box.appendChild(btn);
+  });
+}
+
+// Appelez cette fonction dans votre DOMContentLoaded
+document.addEventListener("DOMContentLoaded", () => {
+  // ... vos autres init
+  injectHoverButtons(); // <--- Ajout de cette ligne
+  initPortfolioEngine();
+});
